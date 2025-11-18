@@ -1,9 +1,7 @@
 1. Mở đầu – Giới thiệu đề tài
 
 Trong phần trình bày này, tôi giới thiệu ứng dụng minh họa chữ ký số DSA triển khai bằng C#/.NET 8 với giao diện WPF theo mô hình MVVM.
-Mục tiêu chính của hệ thống là hiện thực trọn vẹn quy trình sinh khóa – ký – xác thực chữ ký số đối với văn bản, đồng thời tổ chức mã nguồn theo kiến trúc tách lớp rõ ràng giữa lớp mật mã và lớp giao diện người dùng, phù hợp bối cảnh các môn Mật mã học, An toàn thông tin và Lập trình .NET.
-
-
+Mục tiêu chính của hệ thống là hiện thực trọn vẹn quy trình sinh khóa – ký – xác thực chữ ký số đối với văn bản, đồng thời tổ chức mã nguồn theo kiến trúc tách lớp rõ ràng giữa lớp mật mã và lớp giao diện người dùng.
 2. Bối cảnh và cơ sở lý thuyết tóm tắt
 
 Về mặt lý thuyết, DSA – Digital Signature Algorithm – là một thuật toán chữ ký số khóa công khai dựa trên độ khó của bài toán logarit rời rạc. Hệ thống sử dụng các tham số (p,q,g)(p,q,g)(p,q,g), với khóa bí mật xxx và khóa công khai y=gx mod py = g^x \bmod py=gxmodp.
@@ -43,4 +41,4 @@ Hạn chế hiện tại là ứng dụng mới tập trung vào dữ liệu d�
 
 6. Kết luận
 
-Tổng kết lại, hệ thống cho thấy việc kết hợp DSA trong System.Security.Cryptography với kiến trúc MVVM trên WPF cho phép xây dựng một công cụ minh họa chữ ký số có cấu trúc rõ ràng, dễ mở rộng và phù hợp bối cảnh học thuật. Ứng dụng có thể được sử dụng như một công cụ trực quan hỗ trợ giảng dạy và tự học về chữ ký số, cũng như làm nền tảng cho các nghiên cứu và bài toán thực tế phức tạp hơn trong lĩnh vực an toàn thông tin.
+Tổng kết lại, hệ thống cho thấy việc kết hợp DSA trong System.Security.Cryptography với kiến trúc MVVM trên WPF cho phép xây dựng một công cụ minh họa chữ ký số có cấu trúc rõ ràng, dễ mở rộng và phù hợp bối cảnh học thuật. Ứng dụng có thể được sử dụng như một công cụ trực quan hỗ trợ giảng dạy và tự học về chữ ký số, cũng như làm nền tảng cho các nghiên cứu và bài toán thực tế phức tạp hơn trong lĩnh vực an ninh mạng.
