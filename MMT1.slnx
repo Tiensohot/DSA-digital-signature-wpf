@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CryptoLib/CryptoLib.csproj" Id="228200d7-e85a-46c4-b151-62483a5e54b2" />
+  <Project Path="CryptoTest/CryptoTest.csproj" Id="3ccf0ec8-e04e-4533-aee5-3327f4f7a144" />
+  <Project Path="MMT1/DsaWpfApp.csproj" />
+</Solution>
